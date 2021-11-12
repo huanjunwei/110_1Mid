@@ -11,6 +11,21 @@ namespace _110_1Mid
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (IsPostBack == false) { 
+            string code==
+            
+            
+            }
+            string list = "";
+            int i;
+            for (i = 0; i < cl.Inter.Items.Count; i++)
+            {
+                if (cl_Inter.Items[i].Selected)
+                {
+                    list += cl_Inter.Items[i].Value + "/n";
+                }
+
+            }
 
         }
     }
