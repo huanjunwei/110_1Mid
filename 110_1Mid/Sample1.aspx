@@ -22,7 +22,7 @@
             <asp:Label ID="Label4" runat="server" Text="影片說明" Font-Size="X-Large"></asp:Label><asp:HyperLink ID="HyperLink1" runat="server" Height="30px" ImageUrl="youtube-brands.svg" NavigateUrl="https://www.youtube.com/" Width="30px"></asp:HyperLink><br/>
             <asp:Label ID="Label5" runat="server" Text="驗證碼" Font-Size="X-Large"></asp:Label><asp:TextBox ID="tb_Num" runat="server" Height="15px" Width="50px"></asp:TextBox><br/>
             <asp:Button runat="server" Text="送出" ID="bt_Submit" Height="30px" Width="80px" />
-            <form>
+           
 
 
 
